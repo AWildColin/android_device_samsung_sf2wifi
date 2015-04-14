@@ -12,7 +12,7 @@ $(call inherit-product, device/samsung/sf2wifi/device_sf2wifi.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sf2wifi
-PRODUCT_NAME := cm_sf2wifi
+PRODUCT_NAME := full_sf2wifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := sf2wifi
 PRODUCT_MANUFACTURER := samsung
