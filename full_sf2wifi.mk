@@ -1,4 +1,4 @@
-$(call inherit-product, device/samsung/sf2wifi/device_sf2wifi.mk)
+$(call inherit-product, device/samsung/sf2wifi/device.mk)
 
 # Overrides
 PRODUCT_NAME := full_sf2wifi
