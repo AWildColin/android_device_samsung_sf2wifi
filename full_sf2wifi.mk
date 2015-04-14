@@ -1,4 +1,3 @@
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_sf2wifi.mk)
 $(call inherit-product, device/samsung/sf2wifi/device_sf2wifi.mk)
 
 # Overrides

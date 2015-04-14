@@ -5,10 +5,10 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 PRODUCT_RELEASE_NAME := sf2wifi
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, device/samsung/sf2wifi/full_sf2wifi.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/sf2wifi/device_sf2wifi.mk)
+$(call inherit-product, device/samsung/sf2wifi/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sf2wifi
