@@ -15,7 +15,7 @@ TARGET_CPU_VARIANT := generic
 TARGET_BOOTLOADER_BOARD_NAME := sf2wifi
 
 BOARD_KERNEL_CMDLINE := 
-BOARD_KERNEL_BASE := 0x10000000
+BOARD_KERNEL_BASE := 0x10008000
 BOARD_KERNEL_PAGESIZE := 2048
 
 # fix this up by examining /proc/mtd on a running device
