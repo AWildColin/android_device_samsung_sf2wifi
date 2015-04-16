@@ -19,7 +19,7 @@ BOARD_KERNEL_BASE := 0x10008000
 BOARD_KERNEL_PAGESIZE := 2048
 
 # fix this up by examining /proc/mtd on a running device
-# this command doesn't exist on this device -- see http://forum.xda-developers.com/showpost.php?p=25007019&postcount=2
+# this command doesn't exist on this device -- fdisk -l /dev/block/mmcblk0p# works instead. requires busybox.
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 8388608
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2147483648
